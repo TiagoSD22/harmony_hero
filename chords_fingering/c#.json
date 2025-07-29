@@ -1,0 +1,165 @@
+{
+  "key": "C#",
+  "chords": [
+    {
+      "quality": "major",
+      "representation": "C#",
+      "variations": [
+        { "name": "Open Style Barre (4th fret)", "diagram": "e4, b6, g6, d6, a4, Ex" },
+        { "name": "Triad C# Major (9th fret)", "diagram": "e9, b9, g10, dx, ax, ex" },
+        { "name": "Drop Voicing C#", "diagram": "eX, b6, g6, d6, a4, Ex" },
+        { "name": "Power Shape (barre 9)", "diagram": "e9, b9, g10, d11, a11, e9" }
+      ]
+    },
+    {
+      "quality": "minor",
+      "representation": "C#m",
+      "variations": [
+        { "name": "Barre C#m (4th fret)", "diagram": "e4, b5, g6, d6, a4, Ex" },
+        { "name": "C#m Triad (High Voicing)", "diagram": "e9, b9, g9, dx, ax, ex" },
+        { "name": "C#m Rooted on 5th string", "diagram": "e9, b9, g9, d11, a11, eX" },
+        { "name": "C#m Jazz Shell", "diagram": "eX, b5, g6, d6, a4, Ex" }
+      ]
+    },
+    {
+      "quality": "major7",
+      "representation": "C#maj7",
+      "variations": [
+        { "name": "Barre C#maj7", "diagram": "e4, b4, g5, d6, a6, e4" },
+        { "name": "Drop 2 C#maj7", "diagram": "eX, b9, g10, d10, a11, eX" },
+        { "name": "C#maj7 Jazz Voicing", "diagram": "e4, b6, g5, dx, ax, ex" },
+        { "name": "C#maj7 Triad", "diagram": "e9, b11, g10, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "minor7",
+      "representation": "C#m7",
+      "variations": [
+        { "name": "Barre C#m7", "diagram": "e4, b5, g4, d6, a4, Ex" },
+        { "name": "Drop 3 C#m7", "diagram": "eX, b5, g6, d4, a6, Ex" },
+        { "name": "C#m7 Jazz Shape", "diagram": "eX, b9, g9, d9, a11, eX" },
+        { "name": "Triad C#m7", "diagram": "e9, b9, g9, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "diminished",
+      "representation": "C#dim",
+      "variations": [
+        { "name": "C#dim Barre", "diagram": "e4, b5, g6, d4, ax, ex" },
+        { "name": "Drop Voicing C#dim", "diagram": "eX, b6, g7, d6, ax, ex" },
+        { "name": "C#dim Fragment", "diagram": "e9, b8, g9, dx, ax, ex" },
+        { "name": "C#dim Shell", "diagram": "eX, b5, g6, d4, ax, ex" }
+      ]
+    },
+    {
+      "quality": "half-diminished",
+      "representation": "C#m7b5",
+      "variations": [
+        { "name": "C#ø7 Shape", "diagram": "eX, b5, g6, d4, a6, Ex" },
+        { "name": "Jazz Half-Dim C#", "diagram": "e4, b5, g4, d5, ax, ex" },
+        { "name": "Drop 2 C#m7b5", "diagram": "eX, b6, g7, d6, ax, ex" },
+        { "name": "Triad C#m7b5", "diagram": "e9, b9, g9, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "augmented",
+      "representation": "C#+",
+      "variations": [
+        { "name": "C#aug Barre", "diagram": "e4, b5, g5, d6, a6, e4" },
+        { "name": "Triad C#aug High", "diagram": "e9, b9, g10, dx, ax, ex" },
+        { "name": "C#aug Shell Voicing", "diagram": "eX, b6, g7, d6, ax, ex" },
+        { "name": "C#aug Rooted on 5th", "diagram": "eX, b10, g9, d10, a11, eX" }
+      ]
+    },
+    {
+      "quality": "dominant7",
+      "representation": "C#7",
+      "variations": [
+        { "name": "C#7 Barre", "diagram": "e4, b5, g6, d4, a6, e4" },
+        { "name": "C#7 Drop Voicing", "diagram": "eX, b6, g6, d6, a4, Ex" },
+        { "name": "C#7 Jazz Shell", "diagram": "eX, b9, g9, d9, a11, eX" },
+        { "name": "Triad C#7 High", "diagram": "e9, b9, g8, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "dominant9",
+      "representation": "C#9",
+      "variations": [
+        { "name": "C#9 Barre (Jazz)", "diagram": "e4, b6, g4, d6, a4, eX" },
+        { "name": "C#9 Rootless", "diagram": "eX, b6, g6, d6, a6, eX" },
+        { "name": "C#9 High Fragment", "diagram": "e9, b11, g9, dx, ax, ex" },
+        { "name": "C#9 Drop 2", "diagram": "eX, b9, g9, d9, a11, eX" }
+      ]
+    },
+    {
+      "quality": "dominant11",
+      "representation": "C#11",
+      "variations": [
+        { "name": "C#11 Jazz Shell", "diagram": "eX, b6, g4, d6, a4, Ex" },
+        { "name": "C#11 Barre", "diagram": "e4, b4, g6, d6, a6, e4" },
+        { "name": "High Register C#11", "diagram": "e11, b11, g13, dx, ax, ex" },
+        { "name": "C#11 Funk Fragment", "diagram": "e10, b10, g9, dx, ax, ex" }
+      ]
+    },
+    {
+  "quality": "dominant13",
+  "representation": "C#13",
+  "variations": [
+    { "name": "C#13 Barre (Jazz)", "diagram": "e4, b6, g4, d6, a6, e4" },
+    { "name": "C#13 Drop 3", "diagram": "eX, b6, g6, d6, a4, Ex" },
+    { "name": "High C#13 Fragment", "diagram": "e11, b11, g13, dx, ax, ex" },
+    { "name": "C#13 Funk Style", "diagram": "e9, b9, g10, d11, a11, e9" }
+  ]
+    },
+    {
+      "quality": "major6",
+      "representation": "C6",
+      "variations": [
+        { "name": "C#6 Barre", "diagram": "eX, b6, g6, d6, a6, Ex" },
+        { "name": "C#6 Rootless", "diagram": "e4, b6, g6, dx, ax, ex" },
+        { "name": "Drop 2 C#6", "diagram": "eX, b6, g6, d6, a4, Ex" },
+        { "name": "Triad C#6 High", "diagram": "e9, b11, g10, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "minor6",
+      "representation": "C#m6",
+      "variations": [
+        { "name": "Barre C#m6", "diagram": "e4, b5, g6, d6, a4, Ex" },
+        { "name": "C#m6 Shell", "diagram": "eX, b5, g4, d5, a4, Ex" },
+        { "name": "Drop 2 C#m6", "diagram": "eX, b9, g8, d9, a9, eX" },
+        { "name": "Jazz Fragment C#m6", "diagram": "e9, b9, g9, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "suspended2",
+      "representation": "C#sus2",
+      "variations": [
+        { "name": "Basic Sus2", "diagram": "e4, b6, g6, d6, a4, Ex" },
+        { "name": "Triad Sus2", "diagram": "e9, b9, g11, dx, ax, ex" },
+        { "name": "C#sus2 Barre", "diagram": "e4, b6, g6, d6, a4, e4" },
+        { "name": "Shell C#sus2", "diagram": "eX, b6, g8, d6, ax, ex" }
+      ]
+    },
+    {
+      "quality": "suspended4",
+      "representation": "C#sus4",
+      "variations": [
+        { "name": "Barre Sus4", "diagram": "e4, b7, g6, d6, a4, e4" },
+        { "name": "Drop 2 C#sus4", "diagram": "eX, b7, g8, d6, ax, ex" },
+        { "name": "C#sus4 Fragment", "diagram": "eX, b7, g9, d9, ax, ex" },
+        { "name": "Triad Sus4 High", "diagram": "e9, b9, g11, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "add9",
+      "representation": "C#add9",
+      "variations": [
+        { "name": "Basic Add9", "diagram": "e4, b6, g6, d6, a4, Ex" },
+        { "name": "C#add9 Barre", "diagram": "e4, b6, g6, d6, a4, e4" },
+        { "name": "Jazz Voicing Add9", "diagram": "eX, b6, g8, d6, ax, ex" },
+        { "name": "High Add9 Fragment", "diagram": "e9, b11, g9, dx, ax, ex" }
+      ]
+    }
+  ]
+}
