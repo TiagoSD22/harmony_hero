@@ -1,0 +1,165 @@
+{
+  "key": "E",
+  "chords": [
+    {
+      "quality": "major",
+      "representation": "E",
+      "variations": [
+        { "name": "Open E Major", "diagram": "e0, b0, g1, d2, a2, e0" },
+        { "name": "Barre E Major (7th fret)", "diagram": "e7, b9, g9, d9, a7, e7" },
+        { "name": "Drop E Major", "diagram": "eX, b9, g9, d9, a7, e7" },
+        { "name": "E Triad High", "diagram": "e12, b12, g13, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "minor",
+      "representation": "Em",
+      "variations": [
+        { "name": "Open E Minor", "diagram": "e0, b0, g0, d2, a2, e0" },
+        { "name": "Barre Em (7th fret)", "diagram": "e7, b8, g9, d9, a7, e7" },
+        { "name": "Drop Em", "diagram": "eX, b8, g9, d9, a7, e7" },
+        { "name": "Em Triad High", "diagram": "e12, b12, g12, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "major7",
+      "representation": "Emaj7",
+      "variations": [
+        { "name": "Open Emaj7", "diagram": "e0, b0, g1, d1, a2, e0" },
+        { "name": "Barre Emaj7 (7th fret)", "diagram": "e7, b7, g8, d9, a7, e7" },
+        { "name": "Drop Emaj7", "diagram": "eX, b9, g8, d9, a7, e7" },
+        { "name": "High Emaj7 Fragment", "diagram": "e12, b12, g13, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "minor7",
+      "representation": "Em7",
+      "variations": [
+        { "name": "Open Em7", "diagram": "e0, b0, g0, d2, a2, e0" },
+        { "name": "Barre Em7 (7th fret)", "diagram": "e7, b8, g7, d9, a7, e7" },
+        { "name": "Drop Em7", "diagram": "eX, b8, g7, d9, a7, e7" },
+        { "name": "Em7 Triad High", "diagram": "e12, b12, g12, d12, ax, ex" }
+      ]
+    },
+    {
+      "quality": "diminished",
+      "representation": "Edim",
+      "variations": [
+        { "name": "Edim Barre", "diagram": "eX, b8, g9, d7, ax, ex" },
+        { "name": "Drop Edim", "diagram": "eX, b8, g9, d9, ax, ex" },
+        { "name": "High Edim Fragment", "diagram": "e12, b11, g12, dx, ax, ex" },
+        { "name": "Jazz Shell Edim", "diagram": "eX, b8, g9, d7, ax, ex" }
+      ]
+    },
+    {
+      "quality": "half-diminished",
+      "representation": "Em7b5",
+      "variations": [
+        { "name": "Drop Em7b5", "diagram": "eX, b8, g9, d9, ax, ex" },
+        { "name": "Jazz Shell Em7b5", "diagram": "e0, b0, g0, d1, ax, ex" },
+        { "name": "Em7b5 Triad High", "diagram": "e12, b12, g12, d12, ax, ex" },
+        { "name": "Barre Em7b5", "diagram": "eX, b8, g9, d7, ax, ex" }
+      ]
+    },
+    {
+      "quality": "augmented",
+      "representation": "E+",
+      "variations": [
+        { "name": "Open E Augmented", "diagram": "e0, b0, g1, d2, a3, e0" },
+        { "name": "Barre E+", "diagram": "e7, b8, g8, d9, a9, e7" },
+        { "name": "High Aug E Fragment", "diagram": "e12, b12, g13, dx, ax, ex" },
+        { "name": "Drop E+", "diagram": "eX, b8, g9, d8, ax, ex" }
+      ]
+    },
+    {
+      "quality": "dominant7",
+      "representation": "E7",
+      "variations": [
+        { "name": "Open E7", "diagram": "e0, b0, g1, d0, a2, e0" },
+        { "name": "Barre E7 (7th fret)", "diagram": "e7, b8, g9, d7, a9, e7" },
+        { "name": "Drop E7", "diagram": "eX, b8, g7, d9, a7, e7" },
+        { "name": "E7 High Fragment", "diagram": "e12, b12, g11, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "major9",
+      "representation": "Emaj9",
+      "variations": [
+        { "name": "Emaj9 Shell", "diagram": "e0, b0, g1, d1, ax, ex" },
+        { "name": "Barre Emaj9", "diagram": "eX, b11, g8, d9, a7, eX" },
+        { "name": "Drop Emaj9", "diagram": "eX, b11, g8, d9, ax, ex" },
+        { "name": "Emaj9 Fragment", "diagram": "e12, b11, g13, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "minor9",
+      "representation": "Em9",
+      "variations": [
+        { "name": "Em9 Shell", "diagram": "e0, b0, g0, d2, ax, ex" },
+        { "name": "Drop Em9", "diagram": "eX, b10, g9, d9, a7, eX" },
+        { "name": "Barre Em9", "diagram": "eX, b10, g9, d7, ax, ex" },
+        { "name": "Em9 Fragment High", "diagram": "e12, b12, g12, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "dominant9",
+      "representation": "E9",
+      "variations": [
+        { "name": "Open E9", "diagram": "e0, b0, g1, d0, a2, e2" },
+        { "name": "Barre E9", "diagram": "eX, b10, g11, d9, a7, eX" },
+        { "name": "Drop E9", "diagram": "eX, b10, g11, d9, ax, ex" },
+        { "name": "E9 Triad High", "diagram": "e12, b10, g11, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "sus2",
+      "representation": "Esus2",
+      "variations": [
+        { "name": "Open Esus2", "diagram": "e0, b0, g1, d2, a2, e0" },
+        { "name": "Drop Esus2", "diagram": "eX, b7, g9, d9, a7, e7" },
+        { "name": "Barre Esus2", "diagram": "e7, b9, g9, d9, a7, e7" },
+        { "name": "Esus2 Fragment", "diagram": "e12, b14, g13, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "sus4",
+      "representation": "Esus4",
+      "variations": [
+        { "name": "Open Esus4", "diagram": "e0, b0, g2, d2, a2, e0" },
+        { "name": "Drop Esus4", "diagram": "eX, b10, g9, d9, a7, e7" },
+        { "name": "Barre Esus4", "diagram": "e7, b10, g9, d9, a7, e7" },
+        { "name": "Esus4 Fragment", "diagram": "e12, b12, g14, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "dominant13",
+      "representation": "E13",
+      "variations": [
+        { "name": "E13 Shell", "diagram": "e0, b0, g1, d0, ax, ex" },
+        { "name": "Barre E13", "diagram": "eX, b12, g13, d9, a7, eX" },
+        { "name": "Drop E13", "diagram": "eX, b12, g13, d9, ax, ex" },
+        { "name": "High E13 Fragment", "diagram": "e12, b14, g13, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "add9",
+      "representation": "Eadd9",
+      "variations": [
+        { "name": "Open Eadd9", "diagram": "e0, b0, g1, d2, a2, e0" },
+        { "name": "Drop Eadd9", "diagram": "eX, b10, g9, d9, a7, e7" },
+        { "name": "Barre Eadd9", "diagram": "e7, b10, g9, d9, a7, e7" },
+        { "name": "High Eadd9 Fragment", "diagram": "e12, b14, g13, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "6",
+      "representation": "E6",
+      "variations": [
+        { "name": "Open E6", "diagram": "e0, b2, g1, d2, a2, e0" },
+        { "name": "Drop E6", "diagram": "eX, b9, g9, d9, a7, e7" },
+        { "name": "Barre E6", "diagram": "e7, b9, g9, d9, a7, e7" },
+        { "name": "High E6 Fragment", "diagram": "e12, b14, g13, dx, ax, ex" }
+      ]
+    }
+  ]
+}
