@@ -1,0 +1,132 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: guitar-visualizer-postgres
+    profiles:
+      - infra
+      - full
+      - local
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=guitar_chords
+      - POSTGRES_USER=chorduser
+      - POSTGRES_PASSWORD=chordpass
+      - POSTGRES_INITDB_ARGS=--encoding=UTF-8 --lc-collate=C --lc-ctype=C
+    volumes:
+      - "postgres_data:/var/lib/postgresql/data"
+      - "./infra/init-postgres.sql:/docker-entrypoint-initdb.d/init-postgres.sql"
+    networks:
+      - guitar-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin -d guitar_chords"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  localstack:
+    image: localstack/localstack:latest
+    container_name: guitar-visualizer-localstack
+    profiles:
+      - infra
+      - full
+    ports:
+      - "4566:4566"
+    environment:
+      - SERVICES=secretsmanager,iam
+      - DEBUG=1
+      - PERSISTENCE=1
+      - DATA_DIR=/var/lib/localstack/data
+      - DOCKER_HOST=unix:///var/run/docker.sock
+    volumes:
+      - "localstack_data:/var/lib/localstack"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    networks:
+      - guitar-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://127.0.0.1:4566/_localstack/health"]
+      interval: 20s
+      timeout: 10s
+      retries: 15
+      start_period: 60s
+
+  secrets-provisioner:
+    build:
+      context: ./infra
+      dockerfile: Dockerfile
+    container_name: guitar-visualizer-secrets-provisioner
+    profiles:
+      - infra
+      - full
+    depends_on:
+      postgres:
+        condition: service_healthy
+      localstack:
+        condition: service_healthy
+    environment:
+      - AWS_ENDPOINT_URL=http://localstack:4566
+      - AWS_DEFAULT_REGION=us-east-1
+      - AWS_ACCESS_KEY_ID=test
+      - AWS_SECRET_ACCESS_KEY=test
+      - DATABASE_URL=postgresql://admin:password@postgres:5432/guitar_chords
+    volumes:
+      - "./shared:/app/shared"
+      - "./infra/outputs:/app/outputs"
+    networks:
+      - guitar-network
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: guitar-visualizer-backend
+    profiles:
+      - full
+      - local
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      - DATABASE_URL=postgresql://admin:password@postgres:5432/guitar_chords
+      - AWS_ENDPOINT_URL=http://localstack:4566
+      - AWS_DEFAULT_REGION=us-east-1
+      - AWS_ACCESS_KEY_ID=test
+      - AWS_SECRET_ACCESS_KEY=test
+      - PROFILE=local
+    volumes:
+      - "./shared:/app/shared"
+      - "./infra/outputs:/app/outputs"
+    networks:
+      - guitar-network
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: guitar-visualizer-frontend
+    profiles:
+      - full
+      - local
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    environment:
+      - VITE_API_BASE_URL=http://localhost:8080
+      - NODE_ENV=development
+    networks:
+      - guitar-network
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  localstack_data:
+
+networks:
+  guitar-network:
+    driver: bridge
