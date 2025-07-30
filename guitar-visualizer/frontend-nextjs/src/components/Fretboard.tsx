@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { ChordVariation, FretboardPosition } from '../types';
+import { ChordVariation, FretboardPosition } from '@/types';
 
 interface FretboardProps {
   variation: ChordVariation;
