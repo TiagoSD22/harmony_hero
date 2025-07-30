@@ -106,7 +106,7 @@ services:
 
   frontend:
     build:
-      context: ./frontend
+      context: ./frontend-nextjs
       dockerfile: Dockerfile
     container_name: guitar-visualizer-frontend
     profiles:
@@ -117,7 +117,7 @@ services:
     depends_on:
       - backend
     environment:
-      - VITE_API_BASE_URL=http://localhost:8080
+      - NEXT_PUBLIC_API_BASE_URL=http://localhost:8080
       - NODE_ENV=development
     networks:
       - guitar-network
