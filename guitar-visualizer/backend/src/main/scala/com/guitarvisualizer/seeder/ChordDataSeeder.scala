@@ -31,10 +31,10 @@ object ChordDataSeeder {
   }
   
   private def seedChordData(repository: ChordRepository): Unit = {
-    val sharedPath = "/app/shared"
+    val sharedPath = "src/main/resources/chords"
     val chordFiles = List(
-      "a.txt", "a#.json", "b.json", "c.json", "c#.json", 
-      "d.json", "d#.json", "e.json", "f.json", "f#.txt", 
+      "a.json", "a#.json", "b.json", "c.json", "c#.json",
+      "d.json", "d#.json", "e.json", "f.json", "f#.json",
       "g.json", "g#.json"
     )
     
@@ -99,23 +99,32 @@ object ChordDataSeeder {
   }
   
   private def loadChordsFromFile(filePath: String, keyName: String): List[Chord] = {
-    val file = new File(filePath)
-    if (!file.exists()) {
-      logger.warn(s"File not found: $filePath")
-      return List.empty
+    val resourcePath = if (filePath.startsWith("src/main/resources/")) {
+      filePath.replace("src/main/resources/", "")
+    } else {
+      filePath
     }
-    
-    Using(Source.fromFile(file, "UTF-8")) { source =>
-      val content = source.mkString
-      
-      // Try to parse as different formats
-      if (filePath.endsWith(".json")) {
-        parseJsonChords(content, keyName)
-      } else {
-        // Assume it's a JSON file with .txt extension
-        parseJsonChords(content, keyName)
-      }
-    }.getOrElse(List.empty)
+
+    Option(getClass.getClassLoader.getResourceAsStream(resourcePath)) match {
+      case Some(inputStream) =>
+        try {
+          val content = scala.io.Source.fromInputStream(inputStream, "UTF-8").mkString
+          if (filePath.endsWith(".json")) {
+            parseJsonChords(content, keyName)
+          } else {
+            parseJsonChords(content, keyName)
+          }
+        } catch {
+          case ex: Exception =>
+            logger.error(s"Error reading file $filePath: ${ex.getMessage}")
+            List.empty
+        } finally {
+          inputStream.close()
+        }
+      case None =>
+        logger.error(s"Resource not found: $resourcePath")
+        List.empty
+    }
   }
   
   private def parseJsonChords(content: String, keyName: String): List[Chord] = {
