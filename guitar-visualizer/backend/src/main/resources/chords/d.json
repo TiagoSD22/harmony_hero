@@ -1,0 +1,165 @@
+{
+  "key": "D",
+  "chords": [
+    {
+      "quality": "major",
+      "representation": "D",
+      "variations": [
+        { "name": "Open D Major", "diagram": "e2, b3, g2, d0, aX, eX" },
+        { "name": "Barre D Major (5th fret)", "diagram": "e5, b7, g7, d7, a5, eX" },
+        { "name": "Triad D Major High", "diagram": "e10, b10, g11, d12, ax, ex" },
+        { "name": "D Root 5 Shape", "diagram": "eX, b7, g7, d7, a5, eX" }
+      ]
+    },
+    {
+      "quality": "minor",
+      "representation": "Dm",
+      "variations": [
+        { "name": "Open D Minor", "diagram": "e1, b3, g2, d0, aX, eX" },
+        { "name": "Barre Dm (5th fret)", "diagram": "e5, b6, g7, d7, a5, eX" },
+        { "name": "Drop D Minor", "diagram": "eX, b6, g7, d7, a5, eX" },
+        { "name": "Dm Triad High", "diagram": "e10, b10, g10, d12, ax, ex" }
+      ]
+    },
+    {
+      "quality": "major7",
+      "representation": "Dmaj7",
+      "variations": [
+        { "name": "Open Dmaj7", "diagram": "e2, b2, g2, d0, aX, eX" },
+        { "name": "Barre Dmaj7", "diagram": "e5, b5, g6, d7, a5, eX" },
+        { "name": "Drop Dmaj7", "diagram": "eX, b7, g6, d7, a5, eX" },
+        { "name": "Dmaj7 High Fragment", "diagram": "e9, b10, g10, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "minor7",
+      "representation": "Dm7",
+      "variations": [
+        { "name": "Open Dm7", "diagram": "e1, b1, g1, d0, aX, eX" },
+        { "name": "Barre Dm7", "diagram": "e5, b6, g5, d7, a5, eX" },
+        { "name": "Drop Dm7", "diagram": "eX, b6, g5, d7, a5, eX" },
+        { "name": "Dm7 Triad High", "diagram": "e10, b10, g10, d10, ax, ex" }
+      ]
+    },
+    {
+      "quality": "diminished",
+      "representation": "Ddim",
+      "variations": [
+        { "name": "Dim Shape D", "diagram": "e1, b3, g1, d0, ax, ex" },
+        { "name": "Ddim Shell", "diagram": "eX, b6, g7, d6, ax, ex" },
+        { "name": "Triad Ddim High", "diagram": "e9, b10, g9, dx, ax, ex" },
+        { "name": "Barre Ddim", "diagram": "eX, b6, g7, d6, a4, eX" }
+      ]
+    },
+    {
+      "quality": "half-diminished",
+      "representation": "Dm7b5",
+      "variations": [
+        { "name": "Open Half-Dim", "diagram": "e1, b1, g1, d0, aX, eX" },
+        { "name": "Dm7b5 Barre", "diagram": "eX, b6, g7, d5, aX, eX" },
+        { "name": "Dm7b5 Drop", "diagram": "eX, b6, g7, d6, a5, Ex" },
+        { "name": "Dm7b5 Triad", "diagram": "eX, b10, g10, d10, ax, ex" }
+      ]
+    },
+    {
+      "quality": "augmented",
+      "representation": "D+",
+      "variations": [
+        { "name": "Aug Barre D", "diagram": "eX, b6, g7, d7, a6, Ex" },
+        { "name": "Triad Aug D High", "diagram": "e9, b10, g11, dx, ax, ex" },
+        { "name": "Drop Aug D", "diagram": "eX, b6, g7, d8, aX, Ex" },
+        { "name": "D+ Jazz Shell", "diagram": "eX, b6, g7, d6, aX, Ex" }
+      ]
+    },
+    {
+      "quality": "dominant7",
+      "representation": "D7",
+      "variations": [
+        { "name": "Open D7", "diagram": "e2, b1, g2, d0, aX, eX" },
+        { "name": "Barre D7", "diagram": "e5, b6, g7, d5, a5, eX" },
+        { "name": "Drop D7", "diagram": "eX, b6, g7, d5, a5, Ex" },
+        { "name": "D7 High Triad", "diagram": "e9, b10, g9, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "dominant9",
+      "representation": "D9",
+      "variations": [
+        { "name": "Open D9", "diagram": "e0, b1, g0, d0, aX, eX" },
+        { "name": "Barre D9", "diagram": "e5, b7, g5, d7, a5, eX" },
+        { "name": "Drop 2 D9", "diagram": "eX, b7, g5, d7, a5, Ex" },
+        { "name": "D9 High Fragment", "diagram": "e9, b11, g10, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "dominant11",
+      "representation": "D11",
+      "variations": [
+        { "name": "Open D11", "diagram": "e0, b1, g0, d0, a0, eX" },
+        { "name": "Barre D11", "diagram": "e5, b6, g5, d5, a5, eX" },
+        { "name": "Drop D11", "diagram": "eX, b6, g5, d5, a5, eX" },
+        { "name": "D11 High Register", "diagram": "e11, b11, g12, d12, ax, ex" }
+      ]
+    },
+    {
+      "quality": "dominant13",
+      "representation": "D13",
+      "variations": [
+        { "name": "Barre D13", "diagram": "e5, b7, g5, d7, a7, eX" },
+        { "name": "Drop D13", "diagram": "eX, b7, g5, d7, a5, eX" },
+        { "name": "D13 Funk Style", "diagram": "e9, b10, g11, d10, ax, ex" },
+        { "name": "D13 High Triad", "diagram": "e11, b12, g12, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "major6",
+      "representation": "D6",
+      "variations": [
+        { "name": "Open D6", "diagram": "e0, b0, g2, d0, aX, eX" },
+        { "name": "Barre D6", "diagram": "e5, b7, g6, d7, a5, eX" },
+        { "name": "Drop D6", "diagram": "eX, b7, g6, d7, a5, Ex" },
+        { "name": "D6 Triad High", "diagram": "e9, b10, g11, dx, ax, ex" }
+      ]
+    },
+    {
+    "quality": "minor6",
+    "representation": "Dm6",
+    "variations": [
+        { "name": "Open Dm6", "diagram": "e1, b0, g2, d0, aX, eX" },
+        { "name": "Barre Dm6", "diagram": "e5, b6, g7, d7, a5, eX" },
+        { "name": "Drop Dm6", "diagram": "eX, b6, g7, d7, a5, eX" },
+        { "name": "Dm6 Jazz Fragment", "diagram": "e10, b10, g10, dx, ax, ex" }
+    ]
+    },
+    {
+    "quality": "suspended2",
+    "representation": "Dsus2",
+    "variations": [
+        { "name": "Open Dsus2", "diagram": "e0, b3, g2, d0, aX, eX" },
+        { "name": "Barre Dsus2", "diagram": "e5, b7, g7, d7, a5, eX" },
+        { "name": "Drop Dsus2", "diagram": "eX, b7, g7, d7, a5, eX" },
+        { "name": "High Dsus2 Triad", "diagram": "e10, b10, g11, dx, ax, ex" }
+    ]
+    },
+    {
+    "quality": "suspended4",
+    "representation": "Dsus4",
+    "variations": [
+        { "name": "Open Dsus4", "diagram": "e3, b3, g2, d0, aX, eX" },
+        { "name": "Barre Dsus4", "diagram": "e5, b8, g7, d7, a5, eX" },
+        { "name": "Drop Dsus4", "diagram": "eX, b8, g7, d7, a5, eX" },
+        { "name": "High Dsus4 Fragment", "diagram": "e10, b10, g12, dx, ax, ex" }
+    ]
+    },
+    {
+    "quality": "add9",
+    "representation": "Dadd9",
+    "variations": [
+        { "name": "Open Dadd9", "diagram": "e0, b3, g2, d0, aX, eX" },
+        { "name": "Barre Dadd9", "diagram": "e5, b7, g7, d7, a5, eX" },
+        { "name": "Drop Dadd9", "diagram": "eX, b7, g7, d7, a5, eX" },
+        { "name": "High Dadd9 Fragment", "diagram": "e10, b12, g10, dx, ax, ex" }
+    ]
+    }
+    ]
+}

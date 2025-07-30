@@ -1,0 +1,149 @@
+{
+  "key": "A#",
+  "chords": [
+    {
+      "quality": "major",
+      "representation": "A#",
+      "variations": [
+        { "name": "Barre A# Major", "diagram": "e6, b6, g7, d8, a8, e6" },
+        { "name": "Drop A#", "diagram": "eX, b11, g10, d12, ax, ex" },
+        { "name": "A# Shell", "diagram": "eX, b6, g7, d8, ax, ex" },
+        { "name": "High A# Fragment", "diagram": "e18, b18, g15, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "minor",
+      "representation": "A#m",
+      "variations": [
+        { "name": "Barre A#m", "diagram": "e6, b6, g6, d8, a8, e6" },
+        { "name": "Drop A#m", "diagram": "eX, b11, g10, d11, ax, ex" },
+        { "name": "A#m Shell", "diagram": "eX, b6, g6, d8, ax, ex" },
+        { "name": "High A#m Fragment", "diagram": "e18, b18, g18, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "dominant7",
+      "representation": "A#7",
+      "variations": [
+        { "name": "Barre A#7", "diagram": "e6, b6, g7, d6, a8, e6" },
+        { "name": "Drop A#7", "diagram": "eX, b11, g12, d13, ax, ex" },
+        { "name": "A#7 Shell", "diagram": "eX, b6, g7, d6, ax, ex" },
+        { "name": "High A#7 Fragment", "diagram": "e18, b16, g18, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "major7",
+      "representation": "A#maj7",
+      "variations": [
+        { "name": "Barre A#maj7", "diagram": "e6, b6, g7, d7, a8, e6" },
+        { "name": "Drop A#maj7", "diagram": "eX, b10, g10, d12, ax, ex" },
+        { "name": "A#maj7 Shell", "diagram": "eX, b6, g7, d7, ax, ex" },
+        { "name": "High A#maj7 Fragment", "diagram": "e18, b17, g17, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "minor7",
+      "representation": "A#m7",
+      "variations": [
+        { "name": "Barre A#m7", "diagram": "e6, b6, g6, d6, a8, e6" },
+        { "name": "Drop A#m7", "diagram": "eX, b11, g10, d11, ax, ex" },
+        { "name": "A#m7 Shell", "diagram": "eX, b6, g6, d6, ax, ex" },
+        { "name": "High A#m7 Fragment", "diagram": "e18, b16, g18, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "minor7b5",
+      "representation": "A#m7b5",
+      "variations": [
+        { "name": "Barre A#m7b5", "diagram": "e6, b6, g6, d5, a8, e6" },
+        { "name": "Drop A#m7b5", "diagram": "eX, b9, g9, d10, ax, ex" },
+        { "name": "A#m7b5 Shell", "diagram": "eX, b6, g6, d5, ax, ex" },
+        { "name": "High A#m7b5 Fragment", "diagram": "e18, b16, g17, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "diminished",
+      "representation": "A#dim",
+      "variations": [
+        { "name": "Barre A#dim", "diagram": "e5, b4, g5, d4, a6, eX" },
+        { "name": "Drop A#dim", "diagram": "eX, b9, g8, d9, ax, ex" },
+        { "name": "A#dim Shell", "diagram": "eX, b6, g5, d4, ax, ex" },
+        { "name": "High A#dim Fragment", "diagram": "e18, b16, g16, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "augmented",
+      "representation": "A#aug",
+      "variations": [
+        { "name": "Barre A#aug", "diagram": "e6, b7, g7, d8, a8, e6" },
+        { "name": "Drop A#aug", "diagram": "eX, b11, g10, d12, ax, ex" },
+        { "name": "A#aug Shell", "diagram": "eX, b7, g7, d8, ax, ex" },
+        { "name": "High A#aug Fragment", "diagram": "e19, b19, g16, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "maj9",
+      "representation": "A#maj9",
+      "variations": [
+        { "name": "A#maj9 Extended", "diagram": "eX, b10, g10, d10, aX, eX" },
+        { "name": "Compact A#maj9", "diagram": "e6, b6, g7, d7, a8, eX" }
+      ]
+    },
+    {
+      "quality": "add9",
+      "representation": "A#add9",
+      "variations": [
+        { "name": "A#add9 Open Shape", "diagram": "e6, b6, g7, d8, a6, eX" },
+        { "name": "A#add9 Barre", "diagram": "e6, b8, g7, d8, a8, e6" }
+      ]
+    },
+    {
+      "quality": "sus2",
+      "representation": "A#sus2",
+      "variations": [
+        { "name": "A#sus2 Barre", "diagram": "e6, b6, g8, d8, a8, e6" },
+        { "name": "A#sus2 Drop", "diagram": "eX, b11, g10, d13, aX, eX" }
+      ]
+    },
+    {
+      "quality": "sus4",
+      "representation": "A#sus4",
+      "variations": [
+        { "name": "A#sus4 Barre", "diagram": "e6, b6, g8, d8, a8, e6" },
+        { "name": "A#sus4 Drop", "diagram": "eX, b11, g13, d13, aX, eX" }
+      ]
+    },
+    {
+      "quality": "6",
+      "representation": "A#6",
+      "variations": [
+        { "name": "A#6 Barre", "diagram": "e6, b6, g7, d8, a6, e6" },
+        { "name": "A#6 Drop", "diagram": "eX, b11, g10, d10, aX, eX" }
+      ]
+    },
+    {
+      "quality": "m6",
+      "representation": "A#m6",
+      "variations": [
+        { "name": "A#m6 Barre", "diagram": "e6, b6, g6, d8, a6, e6" },
+        { "name": "A#m6 Drop", "diagram": "eX, b11, g10, d10, aX, eX" }
+      ]
+    },
+    {
+      "quality": "9",
+      "representation": "A#9",
+      "variations": [
+        { "name": "A#9 Dominant", "diagram": "e6, b6, g7, d6, a8, e6" },
+        { "name": "A#9 Funk Form", "diagram": "eX, b10, g8, d10, aX, eX" }
+      ]
+    },
+    {
+      "quality": "13",
+      "representation": "A#13",
+      "variations": [
+        { "name": "A#13 Extended", "diagram": "eX, b6, g7, d8, a8, e6" },
+        { "name": "A#13 Jazz Voicing", "diagram": "eX, b11, g10, d10, a10, eX" }
+      ]
+    }
+  ]
+}

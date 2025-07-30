@@ -1,0 +1,165 @@
+{
+  "key": "G",
+  "chords": [
+    {
+      "quality": "major",
+      "representation": "G",
+      "variations": [
+        { "name": "Open G", "diagram": "e3, b0, g0, d0, a2, e3" },
+        { "name": "Barre G", "diagram": "e3, b3, g4, d5, a5, e3" },
+        { "name": "Drop G", "diagram": "eX, b8, g7, d9, ax, ex" },
+        { "name": "High G Fragment", "diagram": "e15, b15, g12, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "minor",
+      "representation": "Gm",
+      "variations": [
+        { "name": "Barre Gm", "diagram": "e3, b3, g3, d5, a5, e3" },
+        { "name": "Drop Gm", "diagram": "eX, b8, g7, d8, ax, ex" },
+        { "name": "Gm Shell", "diagram": "eX, b3, g3, d5, ax, ex" },
+        { "name": "High Gm Fragment", "diagram": "e15, b15, g15, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "dominant7",
+      "representation": "G7",
+      "variations": [
+        { "name": "Open G7", "diagram": "e1, b0, g0, d0, a2, e3" },
+        { "name": "Barre G7", "diagram": "e3, b3, g4, d3, a5, e3" },
+        { "name": "Drop G7", "diagram": "eX, b8, g9, d10, ax, ex" },
+        { "name": "High G7 Fragment", "diagram": "e15, b13, g15, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "major7",
+      "representation": "Gmaj7",
+      "variations": [
+        { "name": "Open Gmaj7", "diagram": "e2, b0, g0, d0, a2, e3" },
+        { "name": "Barre Gmaj7", "diagram": "e3, b3, g4, d4, a5, e3" },
+        { "name": "Drop Gmaj7", "diagram": "eX, b7, g7, d9, ax, ex" },
+        { "name": "High Gmaj7 Fragment", "diagram": "e15, b14, g14, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "minor7",
+      "representation": "Gm7",
+      "variations": [
+        { "name": "Barre Gm7", "diagram": "e3, b3, g3, d3, a5, e3" },
+        { "name": "Drop Gm7", "diagram": "eX, b8, g7, d8, ax, ex" },
+        { "name": "Gm7 Shell", "diagram": "eX, b3, g3, d3, ax, ex" },
+        { "name": "High Gm7 Fragment", "diagram": "e15, b13, g15, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "minor7b5",
+      "representation": "Gm7b5",
+      "variations": [
+        { "name": "Barre Gm7b5", "diagram": "e3, b3, g3, d2, a5, e3" },
+        { "name": "Drop Gm7b5", "diagram": "eX, b6, g6, d7, ax, ex" },
+        { "name": "Gm7b5 Shell", "diagram": "eX, b3, g3, d2, ax, ex" },
+        { "name": "High Gm7b5 Fragment", "diagram": "e15, b13, g14, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "diminished",
+      "representation": "Gdim",
+      "variations": [
+        { "name": "Barre Gdim", "diagram": "e2, b1, g2, d1, a2, eX" },
+        { "name": "Drop Gdim", "diagram": "eX, b6, g5, d6, ax, ex" },
+        { "name": "Gdim Shell", "diagram": "eX, b3, g2, d1, ax, ex" },
+        { "name": "High Gdim Fragment", "diagram": "e15, b13, g13, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "augmented",
+      "representation": "Gaug",
+      "variations": [
+        { "name": "Barre Gaug", "diagram": "e3, b4, g4, d5, a5, e3" },
+        { "name": "Drop Gaug", "diagram": "eX, b8, g7, d9, ax, ex" },
+        { "name": "Gaug Shell", "diagram": "eX, b4, g4, d5, ax, ex" },
+        { "name": "High Gaug Fragment", "diagram": "e16, b16, g13, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "major9",
+      "representation": "Gmaj9",
+      "variations": [
+        { "name": "Open Gmaj9", "diagram": "e2, b0, g0, d0, a2, e3" },
+        { "name": "Barre Gmaj9", "diagram": "eX, b7, g7, d9, a10, eX" },
+        { "name": "Drop Gmaj9", "diagram": "eX, b7, g7, d9, ax, ex" },
+        { "name": "High Gmaj9 Fragment", "diagram": "e15, b14, g14, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "minor9",
+      "representation": "Gm9",
+      "variations": [
+        { "name": "Barre Gm9", "diagram": "eX, b8, g7, d8, a10, eX" },
+        { "name": "Drop Gm9", "diagram": "eX, b8, g7, d8, ax, ex" },
+        { "name": "Gm9 Shell", "diagram": "eX, b3, g3, d5, ax, ex" },
+        { "name": "High Gm9 Fragment", "diagram": "e15, b15, g15, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "dominant9",
+      "representation": "G9",
+      "variations": [
+        { "name": "Barre G9", "diagram": "eX, b8, g9, d7, a5, eX" },
+        { "name": "Drop G9", "diagram": "eX, b8, g9, d7, ax, ex" },
+        { "name": "G9 Shell", "diagram": "eX, b3, g4, d3, ax, ex" },
+        { "name": "High G9 Fragment", "diagram": "e15, b14, g15, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "sus2",
+      "representation": "Gsus2",
+      "variations": [
+        { "name": "Open Gsus2", "diagram": "e3, b3, g0, d0, a2, e3" },
+        { "name": "Barre Gsus2", "diagram": "e3, b3, g5, d5, a5, e3" },
+        { "name": "Drop Gsus2", "diagram": "eX, b8, g7, d9, ax, ex" },
+        { "name": "High Gsus2 Fragment", "diagram": "e15, b17, g14, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "sus4",
+      "representation": "Gsus4",
+      "variations": [
+        { "name": "Open Gsus4", "diagram": "e3, b1, g0, d0, a2, e3" },
+        { "name": "Barre Gsus4", "diagram": "e3, b3, g5, d5, a5, e3" },
+        { "name": "Drop Gsus4", "diagram": "eX, b10, g10, d10, ax, ex" },
+        { "name": "High Gsus4 Fragment", "diagram": "e15, b15, g17, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "dominant13",
+      "representation": "G13",
+      "variations": [
+        { "name": "G13 Shell", "diagram": "eX, b3, g4, d3, ax, ex" },
+        { "name": "Barre G13", "diagram": "eX, b8, g9, d7, a5, eX" },
+        { "name": "Drop G13", "diagram": "eX, b8, g9, d7, ax, ex" },
+        { "name": "High G13 Fragment", "diagram": "e15, b17, g14, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "add9",
+      "representation": "Gadd9",
+      "variations": [
+        { "name": "Open Gadd9", "diagram": "e3, b0, g0, d0, a2, e3" },
+        { "name": "Drop Gadd9", "diagram": "eX, b10, g9, d9, ax, ex" },
+        { "name": "Barre Gadd9", "diagram": "e3, b5, g4, d5, a5, e3" },
+        { "name": "High Gadd9 Fragment", "diagram": "e15, b17, g14, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "6",
+      "representation": "G6",
+      "variations": [
+        { "name": "Open G6", "diagram": "e0, b0, g0, d0, a2, e3" },
+        { "name": "Drop G6", "diagram": "eX, b9, g9, d9, a7, eX" },
+        { "name": "Barre G6", "diagram": "e3, b5, g4, d5, a5, e3" },
+        { "name": "High G6 Fragment", "diagram": "e15, b17, g14, dx, ax, ex" }
+      ]
+    }
+  ]
+}

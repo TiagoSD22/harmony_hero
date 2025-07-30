@@ -1,0 +1,165 @@
+{
+  "key": "D#",
+  "chords": [
+    {
+      "quality": "major",
+      "representation": "D#",
+      "variations": [
+        { "name": "Barre D# Major (6th fret)", "diagram": "e6, b8, g8, d8, a6, Ex" },
+        { "name": "Triad D# Major High", "diagram": "e11, b11, g12, dx, ax, ex" },
+        { "name": "Drop Voicing D#", "diagram": "eX, b8, g8, d8, a6, Ex" },
+        { "name": "Root 5 Barre D#", "diagram": "eX, b8, g8, d8, a6, Ex" }
+      ]
+    },
+    {
+      "quality": "minor",
+      "representation": "D#m",
+      "variations": [
+        { "name": "Barre D#m", "diagram": "e6, b7, g8, d8, a6, Ex" },
+        { "name": "Drop D#m", "diagram": "eX, b7, g8, d8, a6, Ex" },
+        { "name": "High D#m Fragment", "diagram": "e11, b11, g11, d13, ax, ex" },
+        { "name": "D#m Jazz Shape", "diagram": "eX, b7, g8, d6, ax, ex" }
+      ]
+    },
+    {
+      "quality": "major7",
+      "representation": "D#maj7",
+      "variations": [
+        { "name": "Barre D#maj7", "diagram": "e6, b6, g7, d8, a6, Ex" },
+        { "name": "Drop D#maj7", "diagram": "eX, b8, g7, d8, a6, Ex" },
+        { "name": "Triad High D#maj7", "diagram": "e10, b11, g11, dx, ax, ex" },
+        { "name": "Jazz Shell Maj7", "diagram": "eX, b8, g7, d8, a6, Ex" }
+      ]
+    },
+    {
+      "quality": "minor7",
+      "representation": "D#m7",
+      "variations": [
+        { "name": "Barre D#m7", "diagram": "e6, b7, g6, d8, a6, Ex" },
+        { "name": "Drop D#m7", "diagram": "eX, b7, g6, d8, a6, Ex" },
+        { "name": "Triad High D#m7", "diagram": "e11, b11, g11, d11, ax, ex" },
+        { "name": "Jazz Fragment D#m7", "diagram": "eX, b7, g6, d8, a6, Ex" }
+      ]
+    },
+    {
+      "quality": "diminished",
+      "representation": "D#dim",
+      "variations": [
+        { "name": "D#dim Barre", "diagram": "eX, b7, g8, d6, ax, ex" },
+        { "name": "Drop D#dim", "diagram": "eX, b8, g9, d8, ax, ex" },
+        { "name": "Triad High D#dim", "diagram": "e10, b11, g10, dx, ax, ex" },
+        { "name": "Shell D#dim", "diagram": "eX, b7, g8, d6, ax, ex" }
+      ]
+    },
+    {
+      "quality": "half-diminished",
+      "representation": "D#m7b5",
+      "variations": [
+        { "name": "Drop D#m7b5", "diagram": "eX, b8, g9, d8, ax, ex" },
+        { "name": "Jazz Shell D#m7b5", "diagram": "e6, b7, g6, d7, ax, ex" },
+        { "name": "Triad D#m7b5 High", "diagram": "e11, b11, g11, d11, ax, ex" },
+        { "name": "D#ø7 Barre", "diagram": "eX, b8, g9, d7, ax, ex" }
+      ]
+    },
+    {
+      "quality": "augmented",
+      "representation": "D#+",
+      "variations": [
+        { "name": "Barre D#aug", "diagram": "e6, b7, g7, d8, a8, e6" },
+        { "name": "Triad High Aug", "diagram": "e10, b11, g12, dx, ax, ex" },
+        { "name": "Drop D#aug", "diagram": "eX, b8, g9, d8, ax, ex" },
+        { "name": "Root 5 D#aug", "diagram": "eX, b11, g10, d11, a13, eX" }
+      ]
+    },
+    {
+      "quality": "dominant7",
+      "representation": "D#7",
+      "variations": [
+        { "name": "Barre D#7", "diagram": "e6, b7, g8, d6, a8, e6" },
+        { "name": "Drop D#7", "diagram": "eX, b8, g8, d8, a6, Ex" },
+        { "name": "High Fragment D#7", "diagram": "e11, b11, g10, dx, ax, ex" },
+        { "name": "Shell D#7", "diagram": "eX, b8, g7, d8, a6, Ex" }
+      ]
+    },
+    {
+      "quality": "dominant9",
+      "representation": "D#9",
+      "variations": [
+        { "name": "Barre D#9", "diagram": "e6, b8, g6, d8, a6, eX" },
+        { "name": "Drop D#9", "diagram": "eX, b8, g8, d8, a8, Ex" },
+        { "name": "High D#9 Fragment", "diagram": "e11, b13, g11, dx, ax, ex" },
+        { "name": "Jazz Shell D#9", "diagram": "eX, b8, g8, d6, ax, ex" }
+      ]
+    },
+    {
+      "quality": "dominant11",
+      "representation": "D#11",
+      "variations": [
+        { "name": "Barre D#11", "diagram": "e6, b6, g8, d8, a8, e6" },
+        { "name": "Drop D#11", "diagram": "eX, b8, g6, d8, a6, Ex" },
+        { "name": "D#11 High Register", "diagram": "e11, b11, g13, dx, ax, ex" },
+        { "name": "Funky D#11 Fragment", "diagram": "e10, b10, g9, dx, ax, ex" }
+      ]
+    },
+    {
+      "quality": "dominant13",
+      "representation": "D#13",
+      "variations": [
+        { "name": "Barre D#13", "diagram": "e6, b8, g6, d8, a8, e6" },
+        { "name": "Drop D#13", "diagram": "eX, b8, g8, d8, a6, Ex" },
+        { "name": "High D#13 Fragment", "diagram": "e11, b13, g12, dx, ax, ex" },
+        { "name": "D#13 Funk Shape", "diagram": "e10, b11, g12, d11, ax, ex" }
+      ]
+    },
+    {
+      "quality": "major6",
+      "representation": "D#6",
+      "variations": [
+        { "name": "Barre D#6", "diagram": "eX, b8, g8, d8, a8, Ex" },
+        { "name": "Rootless D#6", "diagram": "e6, b8, g8, dx, ax, ex" },
+        { "name": "Drop Voicing D#6", "diagram": "eX, b8, g8, d8, a6, Ex" },
+        { "name": "Triad High D#6", "diagram": "e11, b13, g12, dx, ax, ex" }
+      ]
+    },
+    {
+    "quality": "minor6",
+    "representation": "D#m6",
+    "variations": [
+        { "name": "Barre D#m6", "diagram": "e6, b7, g8, d8, a6, Ex" },
+        { "name": "Drop D#m6", "diagram": "eX, b7, g8, d8, a6, Ex" },
+        { "name": "Jazz Shell D#m6", "diagram": "e6, b7, g6, d7, a6, Ex" },
+        { "name": "High Fragment D#m6", "diagram": "e11, b11, g11, dx, ax, ex" }
+    ]
+    },
+    {
+    "quality": "suspended2",
+    "representation": "D#sus2",
+    "variations": [
+        { "name": "Barre D#sus2", "diagram": "e6, b8, g8, d8, a6, Ex" },
+        { "name": "Triad Sus2 High", "diagram": "e11, b11, g13, dx, ax, ex" },
+        { "name": "Drop D#sus2", "diagram": "eX, b8, g10, d8, ax, ex" },
+        { "name": "Jazz Shell D#sus2", "diagram": "eX, b8, g10, d8, ax, ex" }
+    ]
+    },
+    {
+    "quality": "suspended4",
+    "representation": "D#sus4",
+    "variations": [
+        { "name": "Barre D#sus4", "diagram": "e6, b9, g8, d8, a6, Ex" },
+        { "name": "Drop D#sus4", "diagram": "eX, b9, g10, d8, ax, ex" },
+        { "name": "High Sus4 Fragment", "diagram": "e11, b11, g13, dx, ax, ex" },
+        { "name": "Triad D#sus4", "diagram": "eX, b9, g8, d8, ax, ex" }
+    ]
+    },
+    {
+    "quality": "add9",
+    "representation": "D#add9",
+    "variations": [
+        { "name": "Barre D#add9", "diagram": "e6, b8, g8, d8, a6, Ex" },
+        { "name": "Drop D#add9", "diagram": "eX, b8, g10, d8, ax, ex" },
+        { "name": "Triad Add9 High", "diagram": "e11, b13, g11, dx, ax, ex" },
+        { "name": "Jazz Shell D#add9", "diagram": "eX, b8, g10, d8, ax, ex" }
+    ]
+    }
+  ]
+}

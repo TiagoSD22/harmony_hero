@@ -1,0 +1,357 @@
+{
+  "key": "C",
+  "chords": [
+    {
+      "quality": "major",
+      "representation": "C",
+      "variations": [
+        {
+          "name": "Open C Major (Standard Shape)",
+          "diagram": "e0, b1, g0, d2, a3, Ex"
+        },
+        {
+          "name": "Barre C Major (3rd fret - A shape)",
+          "diagram": "e3, b5, g5, d5, a3, Ex"
+        },
+        {
+          "name": "Barre C Major (8th fret - E shape)",
+          "diagram": "e8, b8, g9, d10, a10, e8"
+        },
+        {
+          "name": "High Triad C Major (frets 12+)",
+          "diagram": "e12, b13, g12, dx, ax, ex"
+        }
+      ]
+    },
+    {
+      "quality": "minor",
+      "representation": "Cm",
+      "variations": [
+        {
+          "name": "Barre Cm (3rd fret - Am shape)",
+          "diagram": "e3, b4, g5, d5, a3, Ex"
+        },
+        {
+          "name": "Cm Triad (8th fret - partial barre)",
+          "diagram": "e8, b8, g8, dx, ax, ex"
+        },
+        {
+          "name": "Cm (12th fret - Dm shape)",
+          "diagram": "e12, b13, g12, d14, ax, ex"
+        },
+        {
+          "name": "Cm Rooted on 5th string (10th fret)",
+          "diagram": "e10, b11, g12, d12, a10, Ex"
+        }
+      ]
+    },
+    {
+      "quality": "diminished",
+      "representation": "Cdim",
+      "variations": [
+        {
+          "name": "Cdim (Standard shape)",
+          "diagram": "e2, b1, g2, d1, ax, ex"
+        },
+        {
+          "name": "Cdim Barre (8th fret shape)",
+          "diagram": "e8, b9, g7, d8, ax, ex"
+        },
+        {
+          "name": "Cdim Triad (frets 10–12)",
+          "diagram": "e10, b9, g10, dx, ax, ex"
+        },
+        {
+          "name": "Cdim Drop Voicing (root on 5th string)",
+          "diagram": "eX, b11, g9, d10, a10, eX"
+        }
+      ]
+    },
+    {
+      "quality": "dominant7",
+      "representation": "C7",
+      "variations": [
+        {
+          "name": "Open C7 (Standard Shape)",
+          "diagram": "e0, b1, g3, d2, a3, Ex"
+        },
+        {
+          "name": "Barre C7 (8th fret - E7 shape)",
+          "diagram": "e8, b8, g9, d8, a10, e8"
+        },
+        {
+          "name": "C7 Shell Voicing (Jazz Style)",
+          "diagram": "e8, b6, g8, dx, ax, ex"
+        },
+        {
+          "name": "C7 Triad Variation",
+          "diagram": "e3, b5, g3, dx, ax, ex"
+        }
+      ]
+    },
+    {
+      "quality": "minor7",
+      "representation": "Cm7",
+      "variations": [
+        {
+          "name": "Cm7 Barre (3rd fret - Am7 shape)",
+          "diagram": "e3, b4, g3, d5, a3, Ex"
+        },
+        {
+          "name": "Cm7 Jazz Voicing (8th fret)",
+          "diagram": "e7, b8, g8, d8, ax, e8"
+        },
+        {
+          "name": "Cm7 Triad (frets 10–12)",
+          "diagram": "e10, b11, g10, dx, ax, ex"
+        },
+        {
+          "name": "Cm7 Drop 2 Voicing",
+          "diagram": "eX, b6, g5, d7, a8, eX"
+        }
+      ]
+    },
+    {
+      "quality": "major7",
+      "representation": "Cmaj7",
+      "variations": [
+        {
+          "name": "Cmaj7 Open Voicing",
+          "diagram": "e0, b0, g0, d2, a3, Ex"
+        },
+        {
+          "name": "Barre Cmaj7 (8th fret - Emaj7 shape)",
+          "diagram": "e8, b8, g9, d9, a10, e8"
+        },
+        {
+          "name": "Drop 2 Cmaj7 Voicing",
+          "diagram": "eX, b8, g9, d9, a10, eX"
+        },
+        {
+          "name": "Jazz Voicing Cmaj7 (10th fret root on 5th string)",
+          "diagram": "eX, b12, g12, d12, a10, eX"
+        }
+      ]
+    },
+    {
+      "quality": "dominant9",
+      "representation": "C9",
+      "variations": [
+        {
+          "name": "C9 Jazz Shell Voicing (8th fret)",
+          "diagram": "eX, b8, g7, d8, a7, eX"
+        },
+        {
+          "name": "Barre C9 (8th fret full shape)",
+          "diagram": "e8, b8, g8, d8, a7, e8"
+        },
+        {
+          "name": "Funky C9 Voicing (root on 5th string)",
+          "diagram": "eX, b8, g9, d7, a7, eX"
+        },
+        {
+          "name": "High Triad C9 (13th fret)",
+          "diagram": "e13, b13, g12, dx, ax, ex"
+        }
+      ]
+    },
+    {
+      "quality": "major6",
+      "representation": "C6",
+      "variations": [
+        {
+          "name": "C6 Open Shape",
+          "diagram": "e0, b1, g2, d2, a3, Ex"
+        },
+        {
+          "name": "Barre C6 (8th fret - E6 shape)",
+          "diagram": "e8, b8, g9, d7, a10, e8"
+        },
+        {
+          "name": "Bossa-Style C6 Voicing",
+          "diagram": "eX, b5, g5, d5, a3, Ex"
+        },
+        {
+          "name": "Drop 3 C6 (root on 5th string)",
+          "diagram": "eX, b8, g9, d7, a10, eX"
+        }
+      ]
+    },
+    {
+      "quality": "add9",
+      "representation": "Cadd9",
+      "variations": [
+        {
+          "name": "Open Cadd9",
+          "diagram": "e0, b3, g0, d2, a3, Ex"
+        },
+        {
+          "name": "Barre Cadd9 (8th fret shape)",
+          "diagram": "e8, b10, g9, d10, a10, e8"
+        },
+        {
+          "name": "Triad Cadd9 (High Voicing)",
+          "diagram": "e12, b13, g12, dx, ax, ex"
+        },
+        {
+          "name": "Cadd9 Drop 2 Voicing",
+          "diagram": "eX, b8, g9, d10, a10, eX"
+        }
+      ]
+    },
+    {
+      "quality": "suspended4",
+      "representation": "Csus4",
+      "variations": [
+        {
+          "name": "Open Csus4",
+          "diagram": "e1, b1, g0, d3, a3, Ex"
+        },
+        {
+          "name": "Barre Csus4 (8th fret shape)",
+          "diagram": "e8, b8, g10, d10, a10, e8"
+        },
+        {
+          "name": "Csus4 Drop Voicing",
+          "diagram": "eX, b8, g10, d10, a10, eX"
+        },
+        {
+          "name": "Csus4 Triad (12th fret)",
+          "diagram": "e13, b13, g12, dx, ax, ex"
+        }
+      ]
+    },
+    {
+      "quality": "minor6",
+      "representation": "Cm6",
+      "variations": [
+        {
+          "name": "Cm6 Jazz Voicing",
+          "diagram": "e8, b8, g8, d9, a8, e8"
+        },
+        {
+          "name": "Cm6 Drop 2 Voicing",
+          "diagram": "eX, b6, g5, d7, a8, eX"
+        },
+        {
+          "name": "Cm6 Root on 5th String",
+          "diagram": "eX, b11, g12, d10, a10, eX"
+        },
+        {
+          "name": "Cm6 Triad High Voicing",
+          "diagram": "e12, b11, g12, dx, ax, ex"
+        }
+      ]
+    },
+    {
+      "quality": "suspended2",
+      "representation": "Csus2",
+      "variations": [
+        {
+          "name": "Open Csus2",
+          "diagram": "e0, b3, g0, d3, a3, Ex"
+        },
+        {
+          "name": "Barre Csus2 (8th fret shape)",
+          "diagram": "e8, b10, g10, d10, a10, e8"
+        },
+        {
+          "name": "Csus2 Drop 2 Style",
+          "diagram": "eX, b8, g10, d10, a10, eX"
+        },
+        {
+          "name": "High Csus2 Triad",
+          "diagram": "e10, b10, g12, dx, ax, ex"
+        }
+      ]
+    },
+    {
+      "quality": "augmented",
+      "representation": "Caug",
+      "variations": [
+        {
+          "name": "Open Caug (Sharp 5)",
+          "diagram": "e0, b1, g1, d2, a3, Ex"
+        },
+        {
+          "name": "Barre Caug (8th fret shape)",
+          "diagram": "e8, b9, g10, d10, a10, e8"
+        },
+        {
+          "name": "Caug Triad (High Voicing)",
+          "diagram": "e12, b13, g13, dx, ax, ex"
+        },
+        {
+          "name": "Caug Root on 5th String",
+          "diagram": "eX, b9, g9, d10, a10, eX"
+        }
+      ]
+    },
+    {
+      "quality": "dominant11",
+      "representation": "C11",
+      "variations": [
+        {
+          "name": "C11 Jazz Shell (Low Voicing)",
+          "diagram": "eX, b8, g7, d8, a7, eX"
+        },
+        {
+          "name": "C11 Full Voicing (Barre)",
+          "diagram": "e8, b8, g8, d10, a7, e8"
+        },
+        {
+          "name": "C11 Rootless Upper Structure",
+          "diagram": "e10, b10, g10, dx, ax, ex"
+        },
+        {
+          "name": "C11 Chord Fragment (Funk Style)",
+          "diagram": "e10, b10, g8, dx, ax, ex"
+        }
+      ]
+    },
+    {
+      "quality": "dominant13",
+      "representation": "C13",
+      "variations": [
+        {
+          "name": "C13 (Jazz Voicing)",
+          "diagram": "eX, b8, g7, d8, a7, eX"
+        },
+        {
+          "name": "C13 Full Barre Shape",
+          "diagram": "e8, b10, g8, d10, a7, e8"
+        },
+        {
+          "name": "C13 High Register Fragment",
+          "diagram": "e12, b13, g12, dx, ax, ex"
+        },
+        {
+          "name": "C13 Comping Voicing",
+          "diagram": "eX, b5, g5, d5, a3, Ex"
+        }
+      ]
+    },
+    {
+      "quality": "half-diminished",
+      "representation": "Cm7b5",
+      "variations": [
+        {
+          "name": "Cm7b5 Open Voicing",
+          "diagram": "e0, b1, g0, d1, a3, Ex"
+        },
+        {
+          "name": "Barre Cm7b5 (8th fret shape)",
+          "diagram": "e8, b9, g7, d8, a10, e8"
+        },
+        {
+          "name": "Cm7b5 Triad (High Voicing)",
+          "diagram": "e12, b11, g12, dx, ax, ex"
+        },
+        {
+          "name": "Cm7b5 Root on 5th String",
+          "diagram": "eX, b11, g10, d10, a10, eX"
+        }
+      ]
+    }
+  ]
+}
