@@ -1,0 +1,16 @@
+meta {
+  name: Get All Chord Qualities
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{server_url}}/chords/qualities
+  body: none
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+  Accept: application/json
+}
