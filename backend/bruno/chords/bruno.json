@@ -1,0 +1,7 @@
+{
+  "name": "guitar-visualizer-api",
+  "version": "1.0.0",
+  "description": "Guitar Visualizer API Collection",
+  "environment": "local"
+}
+
