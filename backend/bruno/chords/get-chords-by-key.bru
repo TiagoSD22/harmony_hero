@@ -1,0 +1,16 @@
+meta {
+  name: Get Chords by Key
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{server_url}}/chords/{{key}}
+  body: none
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+  Accept: application/json
+}
