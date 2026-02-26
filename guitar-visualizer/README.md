@@ -4,7 +4,8 @@ A full-stack web application that helps guitarists discover and visualize chord 
 
 ## 🎯 Demo
 
-![Harmony Hero Demo](demo.png)
+<img width="1518" height="1340" alt="image" src="https://github.com/user-attachments/assets/98def1fe-c665-4da9-a664-8564c4cd1c5b" />
+
 
 **Features Shown:**
 - 🎨 Beautiful gradient interface with modern design
