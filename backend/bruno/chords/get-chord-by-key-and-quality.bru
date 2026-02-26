@@ -1,0 +1,16 @@
+meta {
+  name: Get Chord by Key and Quality
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{server_url}}/chords/{{key}}/{{quality}}
+  body: none
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+  Accept: application/json
+}
